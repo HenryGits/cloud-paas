@@ -17,7 +17,7 @@ const links = [
 
 const copyright = (
   <Fragment>
-    Copyright <Icon type="copyright" /> 2019 宜人财富技术部出品
+    Copyright <Icon type="copyright" /> 2019 达梦技术部出品
   </Fragment>
 );
 
@@ -41,10 +41,10 @@ class UserLayout extends React.PureComponent {
               <div className={styles.header}>
                 <Link to="/">
                   <img alt="logo" className={styles.logo} src="https://niu.yirendai.com/kpl-logo-blue.png" />
-                  <span className={styles.title}>开普勒云平台</span>
+                  <span className={styles.title}>达梦云平台</span>
                 </Link>
               </div>
-              <div className={styles.desc}>宜人财富 Cloud-Native 解决方案</div>
+              <div className={styles.desc}>达梦 Cloud-Native 解决方案</div>
             </div>
             <Switch>
               {getRoutes(match.path, routerData).map(item => (

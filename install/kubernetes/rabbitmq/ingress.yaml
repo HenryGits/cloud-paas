@@ -1,0 +1,14 @@
+#---
+#kind: Ingress
+#apiVersion: extensions/v1beta1
+#metadata:
+#  name: rabbitmq
+#  namespace: cloud-paas
+#spec:
+#  rules:
+#    - host: rabbitmq.kpaas.nsini.com
+#      http:
+#        paths:
+#          - backend:
+#              serviceName: rabbitmq
+#              servicePort: 15672

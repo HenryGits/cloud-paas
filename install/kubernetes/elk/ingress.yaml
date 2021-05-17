@@ -1,0 +1,14 @@
+#---
+#kind: Ingress
+#apiVersion: extensions/v1beta1
+#metadata:
+#  name: kibana
+#  namespace: cloud-paas
+#spec:
+#  rules:
+#    - host: kibana.kpaas.nsini.com
+#      http:
+#        paths:
+#          - backend:
+#              serviceName: kibana
+#              servicePort: 5601

@@ -7,5 +7,5 @@
 *.log
 app.cfg
 config.yaml
-kplcloud
 logs
+*/node_modules

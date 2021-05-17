@@ -10,7 +10,7 @@ const links = [
 ];
 const copyright = (
   <Fragment>
-    Copyright <Icon type="copyright"/> 2019 宜人财富技术部出品
+    Copyright <Icon type="copyright"/> 2019 达梦技术部出品
   </Fragment>
 );
 class ChooseNameSpace extends React.PureComponent {
@@ -34,8 +34,8 @@ class ChooseNameSpace extends React.PureComponent {
           header="false"
         >
           <span style={{float:"left",marginTop:"5px"}}>请选择业务空间：</span>
-          <Select placeholder="宜人财富技术创新" style={{width:"60%"}}>
-            <Option value="operations">宜人财富技术创新</Option>
+          <Select placeholder="达梦技术创新" style={{width:"60%"}}>
+            <Option value="operations">达梦技术创新</Option>
           </Select>
         </Modal>
       </div>

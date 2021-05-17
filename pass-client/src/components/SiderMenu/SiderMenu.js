@@ -227,7 +227,7 @@ export default class SiderMenu extends PureComponent {
             <img
               src='https://niu.yirendai.com/kpl-logo.png'
               alt="logo"/>
-            <h1>开普勒云平台</h1>
+            <h1>达梦云平台</h1>
           </Link>
         </div>
         <Menu

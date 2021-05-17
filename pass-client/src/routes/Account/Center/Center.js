@@ -109,7 +109,7 @@ class Center extends PureComponent {
                   <div className={styles.detail}>
                     <p>
                       <i className={styles.title} />
-                      宜人财富
+                      达梦
                     </p>
                     <p>
                       <i className={styles.group} />

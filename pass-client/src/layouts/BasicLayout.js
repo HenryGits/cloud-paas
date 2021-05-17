@@ -129,9 +129,9 @@ class BasicLayout extends React.PureComponent {
   getPageTitle() {
     const {routerData, location} = this.props;
     const {pathname} = location;
-    let title = '开普勒云平台';
+    let title = '达梦云平台';
     if (routerData[pathname] && routerData[pathname].name) {
-      title = `${routerData[pathname].name} - 开普勒云平台`;
+      title = `${routerData[pathname].name} - 达梦云平台`;
     }
     return title;
   }
@@ -289,13 +289,13 @@ class BasicLayout extends React.PureComponent {
                 {
                   key: 'kplcloud 首页',
                   title: 'kplcloud 首页',
-                  href: 'https://github.com/kplcloud/kplcloud',
+                  href: 'https://cloud-paas',
                   blankTarget: true,
                 }
               ]}
               copyright={
                 <Fragment>
-                  Copyright <Icon type="copyright"/> 2019 宜人财富技术部出品
+                  Copyright <Icon type="copyright"/> 2019 达梦技术部出品
                 </Fragment>
               }
             />

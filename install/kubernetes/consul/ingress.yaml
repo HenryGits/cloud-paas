@@ -1,0 +1,14 @@
+#---
+#kind: Ingress
+#apiVersion: extensions/v1beta1
+#metadata:
+#  name: consul
+#  namespace: cloud-paas
+#spec:
+#  rules:
+#    - host: consul.kpaas.nsini.com
+#      http:
+#        paths:
+#          - backend:
+#              serviceName: consul
+#              servicePort: 8500

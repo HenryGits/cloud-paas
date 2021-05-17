@@ -45,7 +45,7 @@ class BaseView extends Component {
         message.success("基本信息更新成功〜")
       });
 
-      
+
   };
 
   render() {
@@ -56,8 +56,8 @@ class BaseView extends Component {
 
     var arr = Object.keys(currentUser);
     if (arr.length !=0){
-      company = "宜人财富—开普勒中心"
-      //company = currentUser.attrs.canonicalName.replace('宜信公司/宜人金科/宜人财富技术部/', '').replace('/' + currentUser.username, '');
+      company = "达梦—开普勒中心"
+      //company = currentUser.attrs.canonicalName.replace('宜信公司/宜人金科/达梦技术部/', '').replace('/' + currentUser.username, '');
     }
 
 
@@ -97,7 +97,7 @@ class BaseView extends Component {
                     pattern: /^[1][3,4,5,7,8,9][0-9]{9}$/,
                     message:'请输入正确的手机号'
                 },{
-                  required: true, 
+                  required: true,
                   message: '请输入正确的手机号'
                 }],
               })(<Input />)}

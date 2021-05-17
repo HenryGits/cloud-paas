@@ -41,3 +41,8 @@ $ yarn run
 $ yarn build
 ```
 
+
+```text
+cnpm install rimraf -g
+rimraf node_modules
+```

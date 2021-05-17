@@ -1,0 +1,14 @@
+#---
+#kind: Ingress
+#apiVersion: extensions/v1beta1
+#metadata:
+#  name: prometheus
+#  namespace: cloud-paas
+#spec:
+#  rules:
+#    - host: prometheus.kpaas.nsini.com
+#      http:
+#        paths:
+#          - backend:
+#              serviceName: prometheus
+#              servicePort: 9090
